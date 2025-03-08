@@ -28,6 +28,8 @@ To get started, clone this repository to your local machine.
 
 Step 2: Install Dependencies
 Run npm install to install all required dependencies.
+Additionally, install `react-wordcloud` and `d3-cloud` with legacy peer dependencies:
+npm install react-wordcloud d3-cloud --legacy-peer-deps
 
 Step 3: Start the Development Server
 Use npm start to run the project locally. The component will be available at http://localhost:3000.
